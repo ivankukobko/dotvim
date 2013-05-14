@@ -9,23 +9,23 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
+
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'bbommarito/vim-slim'
+Bundle 'daylerees/colour-schemes', { 'rtp': 'vim-themes/' }
 Bundle 'ervandew/supertab'
+Bundle 'garbas/vim-snipmate'
 Bundle 'groenewege/vim-less'
 Bundle 'hallison/vim-ruby-sinatra'
-
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/snipmate-snippets'
-
+Bundle 'honza/vim-snippets'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
-"Bundle 'tomtom/tlib_vim'
+Bundle 'slim-template/vim-slim'
+Bundle 'tomtom/tlib_vim'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-haml'
@@ -33,7 +33,6 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rvm'
 Bundle 'vim-ruby/vim-ruby'
-"Bundle 'vim-scripts/VimClojure'
 " original repos on github
 
 
