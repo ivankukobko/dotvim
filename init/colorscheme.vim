@@ -1,4 +1,8 @@
 if &t_Co == 256
 endif
 
-colorscheme blue
+if has("gui_running")
+  colorscheme Stark
+else
+  colorscheme FreshCut
+endif
